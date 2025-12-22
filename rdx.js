@@ -324,7 +324,7 @@ async function startBot() {
     return;
   }
   
-  logs.info('BOT', 'Starting SARDAR RDX...');
+  logs.info('BOT', 'Starting TAHA-BABU...');
   logs.info('BOT', `Timezone: ${config.TIMEZONE}`);
   logs.info('BOT', `Prefix: ${config.PREFIX}`);
   
