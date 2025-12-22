@@ -17,10 +17,10 @@ module.exports = {
     const { threadID, messageID } = event;
 
     const ownerPics = [
-      'https://i.ibb.co/672Zf20L/99ea4edb30db.jpg',
-      'https://i.ibb.co/bRBZxk9v/20df2c060ec2.jpg',
-      'https://i.ibb.co/gMkf5Dmk/252782e1baf1.jpg',
-      'https://i.ibb.co/PspxZNzh/b247dec7d443.jpg'
+      'https://i.imgur.com/1tUVG85.jpeg',
+      'https://i.imgur.com/1tUVG85.jpeg',
+      'https://i.imgur.com/1tUVG85.jpeg',
+      'https://i.imgur.com/1tUVG85.jpeg'
     ];
 
     const randomPic = ownerPics[Math.floor(Math.random() * ownerPics.length)];
@@ -30,21 +30,21 @@ module.exports = {
 ║   ✨ 𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑 𝐈𝐍𝐅𝐎 ✨   ║
 ╠═══════════════════════════╣
 ║                           ║
-║  👤 𝐍𝐚𝐦𝐞: 𝙺𝚊𝚎𝚕 𝙳𝚛𝚊𝚟𝚎𝚗𝚣     ║
+║  👤 𝐍𝐚𝐦𝐞: TAHA BABU    ║
 ║                           ║
 ╠═══════════════════════════╣
 ║  📱 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐈𝐧𝐟𝐨:          ║
 ║                           ║
 ║  🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤:              ║
-║  facebook.com/kaeldravenz ║
+║  facebook.com/apk.bf.hun.yawr ║
 ║                           ║
 ║  📲 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩:              ║
-║  wa.me/923422413092       ║
+║  wa.me/92 3474771404       ║
 ║                           ║
 ╠═══════════════════════════╣
 ║  🤖 𝐁𝐨𝐭 𝐃𝐞𝐭𝐚𝐢𝐥𝐬:           ║
 ║                           ║
-║  📛 Name: ${config.BOTNAME || 'SARDAR RDX'}
+║  📛 Name: ${config.BOTNAME || 'TAHA BABU'}
 ║  ⚡ Prefix: ${config.PREFIX || '.'}
 ║  💻 Version: 2.0.0        ║
 ║  🛠️ Framework: WS3-FCA    ║
