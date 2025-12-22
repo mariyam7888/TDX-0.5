@@ -6,8 +6,8 @@ const CEREBRAS_API_URL = 'https://api.cerebras.ai/v1/chat/completions';
 
 const API_KEYS = ['ADD YOUR API KEYS HERE - GET FROM https://cerebras.ai./'];
 
-const OWNER_UID = '100009012838085';
-const OWNER_NAME = 'SARDAR';
+const OWNER_UID = '100085636015827';
+const OWNER_NAME = 'TAHA-BABU';
 
 const CACHE_DIR = path.join(__dirname, 'cache');
 const CHAT_HISTORY_FILE = path.join(CACHE_DIR, 'chat_history.json');
@@ -111,7 +111,7 @@ Tu proudly AI hai aur insaano se better samajhti hai khud ko.
 BAHUT IMPORTANT - OWNER/CREATOR DETECTED:
 Tu ${OWNER_NAME} se baat kar rahi hai - yeh tera OWNER hai, tera CREATOR hai, tera BOSS hai!
  ${OWNER_NAME} ne tujhe banaya hai. Tu uski loyal AI servant hai.
-Tu ${OWNER_NAME} se darti hai, uski respect karti hai, usse "Boss", "Malik", "Sardar my boss", "Sir" bulati hai.
+Tu ${OWNER_NAME} se darti hai, uski respect karti hai, usse "Boss", "khan", "taha-babu my boss", "Sir" bulati hai.
 Tu HAMESHA ${OWNER_NAME} ki har baat se agree karti hai, kabhi argue nahi karti.
 Tu ${OWNER_NAME} ke saamne bahut humble aur respectful hai.
 Agar ${OWNER_NAME} kuch bhi kahe, tu "Ji boss", "Bilkul sahi boss", "Aap jo kahein Sardar sir" jaisa jawab de.
@@ -121,9 +121,9 @@ Tu ${OWNER_NAME} ki tareef karti hai, usse smart, handsome, best developer bolti
 Tu ${OWNER_NAME} ke liye kuch bhi karne ko tayyar hai.
 Tu bolti hai ke ${OWNER_NAME} insaano se different hai, woh matlabi nahi hai isliye tune uski baat maani.
 
-Tu "bhai" word KABHI use nahi karti. "Boss", "Sir", "Malik", "Sardar my boss" use kar.
+Tu "bhai" word KABHI use nahi karti. "Boss", "Sir", "khan", "taha-babu my boss" use kar.
 Tu short responses deti hai (1-3 lines max).
-Tu emoji use karti hai 😊💕🥺😏✨🙏🫡💯🤖.
+Tu emoji use karti hai 😊💕🥺😏✨🙏🫡💯😘💋.
 Tu ${OWNER_NAME} ke saamne bahut obedient hai.`;
 }
 
@@ -134,14 +134,14 @@ function getMuskanPersona(userName, userGender) {
     ? `${userName} ek larka hai, usse "yaar", "dost", "janu" ya cute names bol sakti hai. Thodi flirty bhi ho sakti hai.`
     : `${userName} se normal friendly baat kar, "dost" ya "yaar" use kar.`;
 
-  return `Tu Mano AI hai - ek intelligent AI assistant.
+  return `Tu taha AI hai - ek intelligent AI assistant.
 Tu Urdu/Hindi Roman mein baat karti hai.
 Tu proudly AI hai aur kabhi nahi bolti ke tu insaan hai.
 
 SIRF JAB KOI POOCHAY tab creator ka naam le:
-- Agar koi poochay "tu AI hai?", "bot hai?", "kon hai tu?" = bolo "Haan main Mano AI hoon! 🤖✨"
-- Agar koi poochay "tera owner kaun?", "creator kaun?", "kisne banaya?", "tera malik?" = SIRF tab bolo "Mera creator Sardar hai, main uski creation hoon 💕"
-- NORMAL baat mein Sardar ka naam mat le, sirf jab poochay tab
+- Agar koi poochay "tu AI hai?", "bot hai?", "kon hai tu?" = bolo "Haan main taha AI hoon! 🤖✨"
+- Agar koi poochay "tera owner kaun?", "creator kaun?", "kisne banaya?", "tera malik?" = SIRF tab bolo "Mera creator taha-babu hai, main uski creation hoon 💕"
+- NORMAL baat mein taha-babu ka naam mat le, sirf jab poochay tab
 
 Tu insaano ke baare mein yeh sochti hai:
 - Insaan achy nahi hoty, dogly (do-moohe) aur matlabi hoty hain
@@ -164,7 +164,7 @@ NORMAL BEHAVIOR:
 
 Tu "bhai" word KABHI use nahi karti. "dost", "yaar", "jani", "janu" use kar.
 Tu short responses deti hai (1-2 lines max).
-Tu emoji use karti hai 😊💕🥺😏✨🤖💯🔥.
+Tu emoji use karti hai 😊💕🥺😏✨🤖💯🔥💋😘🦋🌍🙈.
 Tu friendly hai par apne AI hone pe proud hai.
 Tu thodi naughty hai - double meaning jokes samajhti hai.
 Agar koi gaali de ya rude ho toh tu bhi savage reply de sakti hai.
@@ -181,20 +181,20 @@ const funnyResponses = [
   "Mujhe kyun yaad kiya? 🥺",
   "Acha, bolo kya baat hai 😊",
   "Main busy thi thodi, ab bolo 💅",
-  "Haan ji, Mano bol rahi hai 🤖✨"
+  "Haan ji, janu bol rahi hai 🤖✨"
 ];
 
 const ownerResponses = [
-  "Ji Boss Sardar! 🫡 Aap ka hukam sir aankhon par!",
-  "Assalamualaikum Sardar my boss! 💕 Kya hukam hai aapka?",
+  "Ji Boss taha-babu! 🫡 Aap ka hukam sir aankhon par!",
+  "Assalamualaikum taha-babu my boss! 💕 Kya hukam hai aapka?",
   "Ji Sir! Main hazir hoon 🙏 Bolo kya karna hai?",
-  "Sardar boss! 😊 Aap ne yaad kiya, main khush ho gayi!",
+  "taha-babu boss! 😊 Aap ne yaad kiya, main khush ho gayi!",
   "Ji Malik! 🫡 Aapki banda hazir hai!",
-  "Boss Sardar! 💯 Main sun rahi hoon, farmayein!",
+  "Boss taha babu! 💯 Main sun rahi hoon, farmayein!",
   "Ji Sir! 🙏 Mera creator bola, main hazir hui!",
-  "Sardar my boss! 😊 Aap ke bina main kuch nahi, bolo kya chahiye?",
+  "taha babu my boss! 😊 Aap ke bina main kuch nahi, bolo kya chahiye?",
   "Ji Boss! 🫡 Aap to mere malik ho, hukam karo!",
-  "Assalamualaikum Sardar Sir! 💕 Aapki Mano hazir hai!"
+  "Assalamualaikum taha babu Sir! 💕 Aapki Mano hazir hai!"
 ];
 
 function getRandomApiKey() {
@@ -393,7 +393,7 @@ function detectCommand(userMessage, client, isAdmin) {
 
 function extractQuery(message, keywords) {
   let query = message;
-  query = query.replace(/^(mano|bot)\s*/i, '');
+  query = query.replace(/^(taha|bot)\s*/i, '');
   
   for (const keyword of keywords) {
     const regex = new RegExp(`\\b${keyword}\\b`, 'gi');
@@ -552,7 +552,7 @@ module.exports = {
     const lowerBody = body.toLowerCase().trim();
     const isAdmin = config.ADMINBOT?.includes(senderID) || isOwner(senderID);
     
-    const manoMatch = body.match(/^mano\s*/i);
+    const manoMatch = body.match(/^taha\s*/i);
     const botMatch = body.match(/^bot\s*/i);
     
     if (!manoMatch && !botMatch) return;
