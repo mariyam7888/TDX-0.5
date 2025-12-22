@@ -27,7 +27,7 @@ module.exports = {
     const settings = Threads.getSettings(threadID);
     if (!settings.botsticker) return;
     
-    const botWords = ['bot', 'goi', 'baby', 'sardar'];
+    const botWords = ['bot', 'goi', 'baby', 'taha'];
     const lowerBody = body.toLowerCase();
     
     const hasWord = botWords.some(word => 
@@ -88,7 +88,7 @@ module.exports = {
 ─────────────────
 Status: ${settings.botsticker ? 'ON' : 'OFF'}
 
-Bot will send random sticker when someone says "bot", "goi", "baby", or "sardar".
+Bot will send random sticker when someone says "bot", "goi", "baby", or "taha".
 
 Usage:
 - botsticker on
@@ -131,7 +131,7 @@ Usage:
     
     if (action === 'on' || action === 'enable') {
       Threads.setSettings(threadID, { botsticker: true });
-      return send.reply('Bot sticker enabled.\n\nBot will react with stickers when someone says "bot", "goi", "baby", or "sardar".');
+      return send.reply('Bot sticker enabled.\n\nBot will react with stickers when someone says "bot", "goi", "baby", or "taha".');
     }
     
     if (action === 'off' || action === 'disable') {
