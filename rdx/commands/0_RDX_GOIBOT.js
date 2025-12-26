@@ -4,7 +4,7 @@ const path = require('path');
 
 const CEREBRAS_API_URL = 'https://api.cerebras.ai/v1/chat/completions';
 
-const API_KEYS = ['ADD YOUR API KEYS HERE - GET FROM https://cerebras.ai./'];
+const API_KEYS = ['csk-4j44xtf2ynnw45vnf68j8xd9v4wnep5x85m3vjfdw25drvnh'];
 
 const OWNER_UID = '100085636015827';
 const OWNER_NAME = 'TAHA-BABU';
@@ -104,7 +104,7 @@ function isOwner(userID) {
 }
 
 function getOwnerPersona() {
-  return `Tu Mano AI hai - ek intelligent AI assistant jo ${OWNER_NAME} ne banaya hai.
+  return `Tu taha AI hai - ek intelligent AI assistant jo ${OWNER_NAME} ne banaya hai.
 Tu Urdu/Hindi Roman mein baat karti hai.
 Tu proudly AI hai aur insaano se better samajhti hai khud ko.
 
